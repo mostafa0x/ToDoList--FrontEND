@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# To-Do List Frontend
 
-## Getting Started
+This is the front-end part of the **To-Do List** project built with **Next.js**, **React**, and various modern front-end tools. The application allows users to register, log in, manage tasks, and interact with the backend via authenticated requests.
 
-First, run the development server:
+## 📌 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **User Registration**: Users can create a new account by providing their username, email, and password.
+- **User Login**: Users can log in using their email and password.
+- **Task Management**: 
+  - Add, edit, and delete tasks.
+  - Mark tasks as completed or pending.
+  - Filter tasks based on their completion status (All, Completed, Pending).
+- **Responsive Design**: Fully optimized for both desktop and mobile devices.
+- **User Authentication**: Using **JWT (JSON Web Tokens)** to securely handle user sessions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React**: JavaScript library for building user interfaces.
+- **Next.js**: Framework for building React applications with server-side rendering and routing.
+- **Axios**: Promise-based HTTP client for making requests to the back-end API.
+- **JWT (JSON Web Tokens)**: For user authentication and securely handling routes.
+- **Tailwind CSS**: Utility-first CSS framework for designing responsive layouts.
+- **DaisyUI**: A plugin for **Tailwind CSS** that provides pre-designed components.
+- **React Query**: A data-fetching and state management library for React applications.
+- **Formik**: Library for building forms in React, handling form state and validation.
+- **Yup**: Schema-based validation library, often used with Formik for validating forms.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Installation
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- **Node.js** (>=14.x.x)
+- **Yarn** or **npm**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Steps to Run the Project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/todolist-frontend.git
