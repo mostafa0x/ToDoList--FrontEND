@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  background-color: #a8c5eb;
+}
+
+.textmenu {
+  font-size: 18px;
+}
