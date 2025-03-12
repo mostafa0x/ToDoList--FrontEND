@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Navbar from "./_Comopnets/Navbar";
-import toast, { Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 import UserContextProvider from './_Context/UserContext'
 import ProtectingRouting from "./_Comopnets/ProtectingRouting";
 import EditorContextProvider from "./_Context/EditorContext"

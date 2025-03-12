@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/page.jsx", "src/app/Login/page.jsx", "src/app/_Comopnets/Navbar.jsx", "src/app/Signin/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/page.jsx", "src/app/Login/page.jsx", "src/app/_Comopnets/Navbar.jsx", "src/app/Signin/page.jsx", "src/app/_Comopnets/ProtectingRouting.jsx"],
   "exclude": ["node_modules"]
 }
